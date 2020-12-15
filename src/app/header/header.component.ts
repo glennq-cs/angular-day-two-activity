@@ -9,6 +9,7 @@ import { GlobalService } from '../services/global.service';
 export class HeaderComponent implements OnInit {
   title = 'Angular';
   subtitle = 'Angular subtitle';
+  themeColor = 'bg-dark';
 
   constructor(private _globalService: GlobalService) { }
 

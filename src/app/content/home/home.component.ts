@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+// import { GlobalService } from '../services/global.service';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  // constructor(private _globalService: GlobalService) { }
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  change(name: string): void {
+    // this._globalService.appSubtitle = name;
   }
 
 }

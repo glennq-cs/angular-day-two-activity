@@ -1,1 +1,11 @@
-<p>home works!</p>
+<div class="row">
+    <div class="col">
+        <label>Enter color:<br />
+            <input #colorName class="form-control"/>
+        </label>
+        <br />
+        <button (click)="change(colorName.value)" class="btn btn-dark">
+            Submit
+        </button>
+    </div>
+</div>

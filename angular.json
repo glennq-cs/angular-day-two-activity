@@ -120,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "training-day-two"
+    }
+  },
+  "defaultProject": "training-day-two",
+  "cli": {
+    "analytics": "daf869e5-dff8-42b7-84c9-45286b667357"
+  }
 }

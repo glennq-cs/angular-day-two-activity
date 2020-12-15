@@ -8,6 +8,7 @@ export class GlobalService {
 
   appTitle = 'Title from Service';
   appSubtitle = 'Subtitle from Service';
+  themeColor = 'bg-dark';
 
   subjectName = new Subject();
 
