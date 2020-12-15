@@ -1,0 +1,19 @@
+<div class="col-12">
+  <div class="row">
+    <div class="col-5 pb-4">
+      <img class="img-thumbnail" src="{{ car?.image || 'Blank' }}">
+    </div>
+    <div class="col-7">
+      <div class="row">
+        <div class="col-12">
+          <h2>{{ car?.name }}</h2>
+          <button class="btn btn-dark"
+                  type="button"
+                  [routerLink]="'product/' + car?.id + '/view'">
+                  Click for more
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
