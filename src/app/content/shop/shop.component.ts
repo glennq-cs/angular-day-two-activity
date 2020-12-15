@@ -20,6 +20,14 @@ export class ShopComponent implements OnInit {
   ngOnInit(): void {
     this.title = this._globalService.toUpperCase(this.title);
     this.subtitle = this._globalService.appSubtitle;
+
+    this._globalService.subjectName.subscribe(
+      (product: any) => {
+        setTimeout(() => {
+          this.productName = product;
+        }, 10);
+      }
+    );
   }
 
 }
